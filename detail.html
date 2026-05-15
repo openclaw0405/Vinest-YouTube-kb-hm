@@ -295,7 +295,11 @@
               // Legacy / fallback bullet points
               if (points.length) {
                 html += '<ul style="margin:6px 0 0 0;padding-left:16px;font-size:12px;color:#8888a0;line-height:1.7">';
-                points.forEach(p => { if (p) html += '<li>' + esc(p) + '</li>'; });
+                points.forEach(p => {
+                  if (!p) return;
+                  const text = (typeof p === 'object' && p !== null) ? (p.item || p.text || JSON.stringify(p)) : String(p);
+                  html += '<li>' + esc(text) + '</li>';
+                });
                 html += '</ul>';
               }
 
@@ -346,7 +350,11 @@
               // Legacy / fallback bullet points
               if (points.length) {
                 html += '<ul style="margin:6px 0 0 0;padding-left:16px;font-size:12px;color:#8888a0;line-height:1.7">';
-                points.forEach(p => { if (p) html += '<li>' + esc(p) + '</li>'; });
+                points.forEach(p => {
+                  if (!p) return;
+                  const text = (typeof p === 'object' && p !== null) ? (p.item || p.text || JSON.stringify(p)) : String(p);
+                  html += '<li>' + esc(text) + '</li>';
+                });
                 html += '</ul>';
               }
 
