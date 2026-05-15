@@ -123,7 +123,7 @@
         // SUMMARY
         // ================================================================
         if (entry.summary_short) html += '<div class="section"><h2>📝 簡介</h2><p style="font-size:15px;color:#c0c0d0">' + esc(entry.summary_short) + '</p></div>';
-        if (entry.summary_long) html += '<div style="line-height:1.8;color:#b0b0c0;margin:10px 0;font-size:14px">' + esc(entry.summary_long) + '</div>';
+        if (entry.summary_long) html += '<div class="section"><h2>📚 詳細摘要</h2><div style="line-height:1.8;color:#b0b0c0;margin:10px 0;font-size:14px">' + esc(entry.summary_long) + '</div></div>';
 
         // ================================================================
         // STOCK RECOMMENDATIONS (RICH VERSION)
@@ -154,9 +154,16 @@
             }
 
             // 📣 講者論點
-            if (s['講者論點'] || s.rationale) {
+            if (s['講者論點'] || s.speaker_rationale || s.rationale) {
               html += '<div style="margin:8px 0;color:#b0b0c0;font-size:13px;line-height:1.6">';
-              html += '<span style="color:#6366f1;font-weight:600">📣 講者論點：</span>' + esc(s['講者論點'] || s.rationale);
+              html += '<span style="color:#6366f1;font-weight:600">📣 講者論點：</span>' + esc(s['講者論點'] || s.speaker_rationale || s.rationale);
+              html += '</div>';
+            }
+
+            // 📝 補充 note
+            if (s.note) {
+              html += '<div style="margin:8px 0;padding:10px 14px;background:#12121f;border-radius:8px;color:#c0c0d0;font-size:13px;line-height:1.6">';
+              html += '<span style="color:#a5b4fc;font-weight:600">📝 補充：</span>' + esc(s.note);
               html += '</div>';
             }
 
@@ -169,8 +176,8 @@
 
             // Metrics row: 上限/下限/入市時機
             const metrics = [];
-            if (s['上限'] || s.upside_pct) metrics.push('<span style="color:#10b981">↑ ' + esc(s['上限'] || s.upside_pct) + '</span>');
-            if (s['下限'] || s.downside_pct) metrics.push('<span style="color:#ef4444">↓ ' + esc(s['下限'] || s.downside_pct) + '</span>');
+            if (s['上限'] || s.upside || s.upside_pct) metrics.push('<span style="color:#10b981">↑ ' + esc(s['上限'] || s.upside || s.upside_pct) + '</span>');
+            if (s['下限'] || s.downside || s.downside_pct) metrics.push('<span style="color:#ef4444">↓ ' + esc(s['下限'] || s.downside || s.downside_pct) + '</span>');
             if (s['入市時機'] || s.entry_timing) metrics.push('<span style="color:#f59e0b">⏱ ' + esc(s['入市時機'] || s.entry_timing) + '</span>');
             if (metrics.length) {
               html += '<div style="margin:10px 0;display:flex;gap:16px;flex-wrap:wrap">' + metrics.join('') + '</div>';
