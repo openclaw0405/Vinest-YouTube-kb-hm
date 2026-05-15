@@ -1,6 +1,273 @@
 {
   "entries": [
     {
+      "id": "ent-20260515163000",
+      "title": "【灼見名家】AI股泡沫風險與地緣政治分析 — 徐家健",
+      "source_name": "灼見名家 Master Insight",
+      "source_url": "https://www.youtube.com/watch?v=0Kkn7htRVAE",
+      "source_type": "youtube",
+      "date": "2026-05-15",
+      "speaker": "徐家健",
+      "summary_short": "經濟學者徐家健分析AI股估值過高風險、Nvidia晶片禁令矛盾、特朗普訪華信號，以及UFO曝光的地緣政治動機。",
+      "summary_long": "2026年5月15日，經濟學者徐家健於灼見名家分析AI股熱潮。指美股AI板塊估值過高， Nvidia晶片禁令自相矛盾——特朗普打壓後再放寬，反映半導體股受政治操控。徐認為AI投資紀律類似2000年科網熱：部分應用成功但整體泡沫難免。他又分析特朗普高調曝光UFO，背後動機是製造「假想敵」轉移公眾視線，配合中期選舉操作。中美貿易關係複雜，美國通脹壓力下需中國配合，徐估计雙方最終回歸溫和經商模式。",
+      "core_thesis": [
+        "Topic 1: AI股估值過高 — 美股AI板塊猶如2000年科網熱，多數公司燒錢無盈利，估值靠預期撐高，隨時爆破",
+        "Topic 2: Nvidia晶片禁令自相矛盾 — 美國打壓後再放寬，反映半導體政策受政治操控，非純商業決定",
+        "Topic 3: UFO高調曝光的地緣政治動機 — 美國製造外部威脅假想敵，配合中期選舉，轉移公眾對經濟問題注意力",
+        "Topic 4: 中美貿易關係走向 — 美國通脹高企下需中國配合，雙方最終回歸溫和經商模式，政治問題純粹化",
+        "Topic 5: 月球殖民機遇 — 科技成熟令月球殖民變得可能，具經濟與軍事戰略價值，各國正積極布局"
+      ],
+      "key_points": [
+        "美股AI板塊當前估值過高，多數公司靠燒錢維持，Nvidia晶片因大陸市場禁令而受壓，但禁令一再放寬反映政治操作",
+        "AI應用仍未明顯跑出，目前主要係晶片需求大，但邊個應用最終跑出仍未確定，與2000年科網熱相似",
+        "特朗普高調曝光UFO並非純粹陰謀論，背後係製造假想敵、配合中期選舉的政治策略",
+        "美國對華政策由對抗走向務實：美國需要通脹回落、中國需要出口市場，雙方最終會回到溫和經商模式",
+        "中期選舉臨近，特朗普需要農產品出口、中國需要穩定出口市場，雙方有動機達成協議",
+        " Anthropic、OpenAI相繼計劃IPO，估值1700-20000億美元，IPO時會有大量古靈精怪的消息出爐",
+        "月球殖民因科技成熟變得可行，具經濟與軍事戰略價值，將成各國新競爭領域"
+      ],
+      "investment_mindset": {
+        "distinctions": [
+          "AI晶片需求 vs AI應用落地：目前得Nvidia等晶片公司確定受惠，但邊個應用最終跑出仍未知",
+          "美股AI泡沫 vs 中國AI發展：美國AI靠燒錢維持估值、中國AI靠應用場景發展，方向不同",
+          "美國製造外部威脅 vs 實際軍事落後：UFO報道更像政治公關而非真正軍事威脅"
+        ],
+        "process": [
+          "分析半導體股時要睇政治因素：禁令→放寬→再禁令，反映政策被政治操控，非純商業邏輯",
+          "評估AI股估值時要區分：邊個係真正有訂單有盈利的公司，邊個係靠情緒同概念炒作"
+        ],
+        "philosophy": [
+          "歷史不會完全重演但會押韻：2000年科網泡沫並非互聯網無用，而是過度炒作後必然整固",
+          "任何新興行業都會經歷：概念炒作→估值過高→泡沫爆破→真正龍頭跑出嘅週期"
+        ]
+      },
+      "personal_insights": [
+        "徐家健：美國解禁Nvidia晶片背後係因為發覺制裁中國反而令中國加快自強，美國最終發現不如放鬆制裁自己",
+        "特朗普需要農業州份支持（中期選舉），中國係最大農產品買家，雙方有誘因達成貿易協議",
+        "UFO高調曝光時機敏感——配合中期選舉，唔少人相信係為咗轉移公眾對經濟問題注意力"
+      ],
+      "stock_recommendations": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "direction": "monitoring",
+          "投資論點": "Nvidia係AI晶片龍頭，需求確定但股價已反映過度樂觀預期。禁令一再放寬反映政治風險，估值貴得不合理(~100x PE)，但作為行業龍頭仍有長期價值。",
+          "講者論點": "晶片需求確定但禁令政治化，今日解禁明日可能再禁，政策唔穩定增加持有風險。建議等估值調整後先考慮。",
+          "語錄": "❝ Nvidia嗰啲晶片呢同大陸個市場都係拆晒，而家又搵返去，晚理收嘅，唔知有冇關係即係證明呢，而家美股好受呢個半導體嘅影響。❞",
+          "入市時機": "估值回落至歷史均值 PE 50x 以下、同時美國對華科技政策穩定化之後",
+          "上限": "↑ 受限（已經貴得太緊要）",
+          "下限": "↓ 未見底（政策風險同泡沫調整）",
+          "thesis_status": "monitoring",
+          "重評條件": "如果AI應用真正落地並出現可持續盈利，或者估值大幅調整至合理水平，先考慮建倉"
+        },
+        {
+          "ticker": "ANTHROPIC",
+          "name": "Anthropic (未上市)",
+          "direction": "watch",
+          "投資論點": "AI安全領域嘅明星公司，預備IPO，估值相當進取。佢係少數有能力喺AI軍備競賽中生存嘅非OpenAI公司，但上市時估值可能已經過度反映前景。",
+          "講者論點": "預備IPO嘅AI公司上市時會有大量古靈精怪嘅消息出台嚟谷大估值，投資者要小心。",
+          "語錄": "❝ AI,嗰兩隻ANDB同埋OpenAI都話想上市，係但係咁最sp呢隻都係大隻嘅，最大嘅space呢，而家估值17000億美金到兩萬億美金。❞",
+          "入市時機": "IPO後觀望，等估值穩定並確認有實際商業收入先考慮",
+          "上限": "↑ 上升空間有限（估值已非常進取）",
+          "下限": "↓ 調整空間大（目前係pre-IPO估值）",
+          "thesis_status": "monitoring",
+          "重評條件": "IPO定價後，根據估值同業務進展再決定是否值得長線持有"
+        },
+        {
+          "ticker": "OPENAI",
+          "name": "OpenAI (未上市)",
+          "direction": "watch",
+          "投資論點": "AI行業領導者，ChatGPT改變咗AI應用場景，但估值已反映過度樂觀。準備IPO時會有大量公關操作谷大估值，投資者要有戒心。",
+          "講者論點": "OpenAI等公司上市時會有大量古靈精怪嘅消息出爐，目的係谷大IPO估值，唔可以完全相信佢哋釋放嘅信息。",
+          "語錄": "❝ 你check GPT有AI冇得爆，即係佢可以爆股市嗰個爆，所以多咗渠道去集資，所以美股嗰隻有幾隻特別係市場能做成功嘅，咁咪價一路升得好癲囉。❞",
+          "入市時機": "IPO後觀望，等估值進入合理區間並確認盈利模式清晰",
+          "上限": "↑ 有限（已反映過度樂觀）",
+          "下限": "↓ 調整空間大（估值太進取）",
+          "thesis_status": "monitoring",
+          "重評條件": "確認有實際商業收入並建立可持續盈利模式後，先再考慮"
+        }
+      ],
+      "bull_cases": {
+        "AI投資持續": [
+          {
+            "item": "AI晶片需求明確：無論邊個應用跑出，晶片需求都係確定嘅，Nvidia等公司訂單有保證",
+            "topic": "AI投資持續"
+          },
+          {
+            "item": "A股有獨立行情：中國AI發展靠自己政策同市場，唔受美國AI泡沫影響，可能走出獨立行情",
+            "topic": "AI投資持續"
+          }
+        ],
+        "中美關係溫和化": [
+          {
+            "item": "中期選舉臨近，特朗普需要農業州支持，有動機對華達成貿易協議，雙方關係短期內偏向溫和",
+            "topic": "中美關係溫和化"
+          },
+          {
+            "item": "美國通脹壓力大，需要中國配合降低消費品成本，雙方有實際利益驱动走向務實",
+            "topic": "中美關係溫和化"
+          }
+        ],
+        "月球經濟": [
+          {
+            "item": "科技成熟令月球殖民變得經濟可行，具戰略價值，各國將加大投入，相關股票可能受惠",
+            "topic": "月球經濟"
+          }
+        ]
+      },
+      "bear_cases": {
+        "AI泡沫爆破": [
+          {
+            "item": "多數AI公司燒錢無盈利，估值靠預期撐高，類似2000年科網泡沫，遲早要調整",
+            "topic": "AI泡沫爆破"
+          },
+          {
+            "item": "AI應用仍未明顯跑出，邊個應用最終創造價值仍未確定，整個行業短期面臨估值重整",
+            "topic": "AI泡沫爆破"
+          },
+          {
+            "item": "UFO曝光反映美國需要外部敵人轉移視線，唔係真正科技突破，相關AI軍備競賽可能降溫",
+            "topic": "AI泡沫爆破"
+          }
+        ],
+        "半導體政策風險": [
+          {
+            "item": "Nvidia晶片禁令一再放寬反映政策被政治操控，今日解禁明日可能再禁，增加持有風險",
+            "topic": "半導體政策風險"
+          }
+        ],
+        "中美關係再次緊張": [
+          {
+            "item": "中期選舉後美國可能再度對華強硬，貿易協議可能被推翻，呢個溫和階段只係暫時",
+            "topic": "中美關係再次緊張"
+          }
+        ]
+      },
+      "catalysts": {
+        "positive": [
+          "Nvidia GPU需求持續爆發：ChatGPT等大模型訓練需要大量GPU，Nvidia係最大受惠者",
+          " Anthropic/OpenAI IPO：將成最大市值AI公司，吸引資金流入AI板塊",
+          "美股AI應用逐步落地：企業採用AI提升效率，帶動相關公司收入增長",
+          "特朗普農業州壓力：需要中國購買農產品，有動機達成貿易協議，利好雙方關係"
+        ],
+        "negative": [
+          "AI估值過高最終調整：當投資者發現AI公司盈利唔達預期，整個板塊可能急跌",
+          "中美科技脫鉤加劇：美國可能收緊半導體出口中國，Nvidia等公司訂單受壓",
+          "UFO效應消退：當公眾發現UFO報道係政治操作，相關AI軍事概念可能降溫",
+          "地緣政治升級：台灣、南海問題可能令中美關係再次緊張，影響科技供應鏈"
+        ]
+      },
+      "risks": {
+        "market": [
+          "AI股估值過高類似2000年科網泡沫，一旦通脹回升或加息預期升溫，高估值股將受壓",
+          "美股整體處於高位，任何負面消息都可能觸發較大調整"
+        ],
+        "thematic": [
+          "AI應用仍未明確跑出，投資者過度樂觀，一旦盈利唔達預期可能觸發板塊拋售",
+          "半導體禁令政策反覆，Nvidia等公司盈利可預測性低"
+        ],
+        "liquidity": [
+          "AI IPO潮可能吸走大量市場資金，當IPO估值過高時，破底後可能影響整體科技板塊氣氛",
+          "中美資金流向：美國收緊對華投資，部分資金可能撤離中國科技股"
+        ]
+      },
+      "logic_chains": [
+        {
+          "topic": "AI晶片需求確定但估值過高",
+          "premise_facts": [
+            "Nvidia GPU需求持續高企，ChatGPT等大模型訓練需要大量晶片",
+            "多數AI公司仍燒錢無盈利，依靠風投同二級市場集資維持",
+            "Nvidia估值已經貴得不合理，但禁令一再放寬反映政治操控"
+          ],
+          "reasoning_chain": "AI晶片需求確定(前提) → 但估值已過度反映(機制) → 禁令政治化增加不確定性(風險) → 建議等估值調整後先考慮(結論)",
+          "speaker_conclusion": "Nvidia係值得長線持有嘅公司，但目前估值過高，政策風險大，等調整後再考慮",
+          "confidence": "medium",
+          "expiry_condition": "如果AI應用確定盈利模式，估值回落至合理水平，呢個睇法需要更新",
+          "action": "短期觀望為主，等估值進入合理區間再考慮分注吸納"
+        },
+        {
+          "topic": "UFO報道係政治操作非真正威脅",
+          "premise_facts": [
+            "UFO報道時機配合中期選舉，特朗普需要轉移公眾注意力",
+            "美國通脹高企、公眾對經濟不滿，需要外部敵人轉移視線",
+            "歷史冷戰時期美國曾用外星人威脅論谷軍備"
+          ],
+          "reasoning_chain": "中期選舉臨近(前提) → 特朗普需要公關勝利轉移視線(機制) → UFO高調曝光係政治操作(推論) → 唔係真正軍事威脅(結論)",
+          "speaker_conclusion": "UFO報道更像政治公關，唔係真正科技突破，投資者唔需要過度認真",
+          "confidence": "medium",
+          "expiry_condition": "如果美國真的加大AI軍事投入並公布具體計劃，呢個睇法需要更新",
+          "action": "對相關AI軍事概念股保持警惕，唔好盲目跟風"
+        },
+        {
+          "topic": "中美最終回歸溫和經商模式",
+          "premise_facts": [
+            "美國通脹高企需要中國配合降低消費品價格",
+            "中期選舉臨近，特朗普需要農業州支持",
+            "歷史經驗：冷戰後中美曾有一段時間合作無間因為大家都得益"
+          ],
+          "reasoning_chain": "美國通脹壓力大(前提) → 需要中國購買農產品降低物價(機制) → 中國需要出口市場支撐經濟(推論) → 雙方有動機回到溫和經商模式(結論)",
+          "speaker_conclusion": "中美經商關係最終會回到務實模式，政治問題純粹化，唔需要太悲觀",
+          "confidence": "medium",
+          "expiry_condition": "如果台灣或南海發生軍事衝突，呢個睇法完全逆轉",
+          "action": "對出口導向嘅中國科技股保持審慎樂觀，但避開地緣政治敏感行業"
+        }
+      ],
+      "cross_references": [
+        {
+          "source_a": "AI股估值過高，存在爆破風險（徐家健觀點）",
+          "source_b": "AI係必然投資方向，所有行業都會受惠（主流共識）",
+          "who_wins_when": "如果AI應用確實創造巨大價值並有持續盈利，A正確；如果係另一個2000年科網泡沫，B在短期正確但最終都係A",
+          "key_insight": "區分：係AI晶片需求確定（較穩陣），定係所有AI公司都值得投資（風險高）"
+        },
+        {
+          "source_a": "特朗普高調曝光UFO係政治操作（徐家健觀點）",
+          "source_b": "UFO係真正軍事科技突破（陰謀論者觀點）",
+          "who_wins_when": "如果美國真正有外星人科技，B正確；如果純粹政治操作，A正確。短期A股受影響，B正確；中期睇基本因素，A正確",
+          "key_insight": "唔好因為UFO報道就盲目買AI軍事概念股，要區分政治操作同真正投資機會"
+        }
+      ],
+      "portfolio_application": {
+        "entry_trigger": "等估值進入合理區間：Nvidia PE 50x 以下，半導體政策穩定化",
+        "position_sizing": "AI晶片股最多佔組合10%，等待調整後分注吸納",
+        "stop_loss": "Nvidia跌破上一次低位立即止蝕",
+        "take_profit": "分階段止賺：目標價上方20%開始分批離場",
+        "holding_period": "3-6個月，等待估值調整同政策明朗化",
+        "invalidation": "如果AI應用確定爆發盈利，或者中美爆發全面貿易戰，呢個策略需要重新評估",
+        "correlation_risk": "AI股同科技整體板塊高度相關，要注意集中風險",
+        "monitoring_signals": "每月追蹤：Nvidia季報、 中美貿易談判進展、AI應用落地情况"
+      },
+      "open_questions": [
+        "AI應用最終邊個場景創造最大價值？雲端、企业，還是消費者應用？",
+        "Nvidia禁令政策未來點走？會唔會再次收緊？",
+        " Anthropic/OpenAI IPO定價幾多？估值進取程度幾何？",
+        "中美貿易談判最終達成咩協議？對科技出口影響點？",
+        "月球經濟發展速度幾快？邊個公司最直接受惠？"
+      ],
+      "notes": "manual review from Cantonese captions, 徐家健係經濟學者，節目來自灼見名家。整體分析偏向宏觀地緣政治同AI泡沫風險，唔係短線技術分析。 transcript quality ok but some sentences are fragmented due to natural speech patterns.",
+      "companies": [
+        "Nvidia",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "sectors": [
+        "科技",
+        "股票/港股",
+        "宏觀經濟"
+      ],
+      "themes": [
+        "AI",
+        "中美",
+        "投資風險",
+        "地緣政治",
+        "美股"
+      ],
+      "tickers": [
+        "NVDA"
+      ],
+      "created_at": "2026-05-15T16:30:00Z",
+      "updated_at": "2026-05-15T16:30:00Z"
+    },
+    {
       "id": "ent-20260515081500",
       "title": "【直播】2026-05-15 買盤薄弱 市況急轉直下 郭思治 午間TURBO",
       "source_name": "郭Sir財經",
@@ -12311,7 +12578,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 2
+      "entry_count": 3
     },
     {
       "id": "comp-9",
@@ -12615,7 +12882,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 3
+      "entry_count": 4
     },
     {
       "id": "comp-47",
@@ -12631,7 +12898,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 5
+      "entry_count": 6
     },
     {
       "id": "comp-49",
@@ -13444,7 +13711,7 @@
     {
       "id": "sector-15",
       "name": "宏觀經濟",
-      "entry_count": 27
+      "entry_count": 28
     },
     {
       "id": "sector-16",
@@ -13579,7 +13846,7 @@
     {
       "id": "sector-42",
       "name": "科技",
-      "entry_count": 27
+      "entry_count": 28
     },
     {
       "id": "sector-43",
@@ -13609,7 +13876,7 @@
     {
       "id": "sector-48",
       "name": "股票/港股",
-      "entry_count": 28
+      "entry_count": 29
     },
     {
       "id": "sector-49",
@@ -13706,7 +13973,7 @@
     {
       "id": "theme-3",
       "name": "AI",
-      "entry_count": 25
+      "entry_count": 26
     },
     {
       "id": "theme-4",
@@ -13770,576 +14037,581 @@
     },
     {
       "id": "theme-16",
+      "name": "中美",
+      "entry_count": 1
+    },
+    {
+      "id": "theme-17",
       "name": "中美關係",
       "entry_count": 2
     },
     {
-      "id": "theme-17",
+      "id": "theme-18",
       "name": "二手市場",
       "entry_count": 1
     },
     {
-      "id": "theme-18",
+      "id": "theme-19",
       "name": "人工智能硬件",
       "entry_count": 1
     },
     {
-      "id": "theme-19",
+      "id": "theme-20",
       "name": "人工智能硬件基礎設施",
       "entry_count": 1
     },
     {
-      "id": "theme-20",
+      "id": "theme-21",
       "name": "人形機器人",
       "entry_count": 5
     },
     {
-      "id": "theme-21",
+      "id": "theme-22",
       "name": "人性",
       "entry_count": 1
     },
     {
-      "id": "theme-22",
+      "id": "theme-23",
       "name": "企業變革",
       "entry_count": 1
     },
     {
-      "id": "theme-23",
+      "id": "theme-24",
       "name": "住宅市道",
       "entry_count": 2
     },
     {
-      "id": "theme-24",
+      "id": "theme-25",
       "name": "供應過剩",
       "entry_count": 1
     },
     {
-      "id": "theme-25",
+      "id": "theme-26",
       "name": "信貸危機",
       "entry_count": 1
     },
     {
-      "id": "theme-26",
+      "id": "theme-27",
       "name": "倉位管理",
       "entry_count": 12
     },
     {
-      "id": "theme-27",
+      "id": "theme-28",
       "name": "價值投資",
       "entry_count": 2
     },
     {
-      "id": "theme-28",
+      "id": "theme-29",
       "name": "光纖/光通信",
       "entry_count": 1
     },
     {
-      "id": "theme-29",
+      "id": "theme-30",
       "name": "內地買家",
       "entry_count": 2
     },
     {
-      "id": "theme-30",
+      "id": "theme-31",
       "name": "內房",
       "entry_count": 1
     },
     {
-      "id": "theme-31",
+      "id": "theme-32",
       "name": "具身機器人",
       "entry_count": 1
     },
     {
-      "id": "theme-32",
+      "id": "theme-33",
       "name": "分紅回報",
       "entry_count": 1
     },
     {
-      "id": "theme-33",
+      "id": "theme-34",
       "name": "利率",
       "entry_count": 2
     },
     {
-      "id": "theme-34",
+      "id": "theme-35",
       "name": "北上消費",
       "entry_count": 1
     },
     {
-      "id": "theme-35",
+      "id": "theme-36",
       "name": "半導體",
       "entry_count": 1
     },
     {
-      "id": "theme-36",
+      "id": "theme-37",
       "name": "去美元化",
       "entry_count": 2
     },
     {
-      "id": "theme-37",
+      "id": "theme-38",
       "name": "反內卷",
       "entry_count": 1
     },
     {
-      "id": "theme-38",
+      "id": "theme-39",
       "name": "同城化",
       "entry_count": 1
     },
     {
-      "id": "theme-39",
+      "id": "theme-40",
       "name": "品牌全球化",
       "entry_count": 1
     },
     {
-      "id": "theme-40",
+      "id": "theme-41",
       "name": "品牌升級",
       "entry_count": 1
     },
     {
-      "id": "theme-41",
+      "id": "theme-42",
       "name": "國補政策",
       "entry_count": 1
     },
     {
-      "id": "theme-42",
+      "id": "theme-43",
       "name": "地產",
       "entry_count": 1
     },
     {
-      "id": "theme-43",
+      "id": "theme-44",
       "name": "地緣政治",
-      "entry_count": 18
+      "entry_count": 19
     },
     {
-      "id": "theme-44",
+      "id": "theme-45",
       "name": "地缘政治",
       "entry_count": 1
     },
     {
-      "id": "theme-45",
+      "id": "theme-46",
       "name": "大宗商貿拐點",
       "entry_count": 1
     },
     {
-      "id": "theme-46",
+      "id": "theme-47",
       "name": "大牛市",
       "entry_count": 1
     },
     {
-      "id": "theme-47",
+      "id": "theme-48",
       "name": "失業率",
       "entry_count": 1
     },
     {
-      "id": "theme-48",
+      "id": "theme-49",
       "name": "嬰童耐用品",
       "entry_count": 1
     },
     {
-      "id": "theme-49",
+      "id": "theme-50",
       "name": "宏觀分析",
       "entry_count": 3
     },
     {
-      "id": "theme-50",
+      "id": "theme-51",
       "name": "宏觀經濟",
       "entry_count": 9
     },
     {
-      "id": "theme-51",
+      "id": "theme-52",
       "name": "宏观经ums",
       "entry_count": 1
     },
     {
-      "id": "theme-52",
+      "id": "theme-53",
       "name": "實質利率",
       "entry_count": 1
     },
     {
-      "id": "theme-53",
+      "id": "theme-54",
       "name": "對華關稅",
       "entry_count": 1
     },
     {
-      "id": "theme-54",
+      "id": "theme-55",
       "name": "工具機",
       "entry_count": 1
     },
     {
-      "id": "theme-55",
+      "id": "theme-56",
       "name": "市場情緒",
       "entry_count": 4
     },
     {
-      "id": "theme-56",
+      "id": "theme-57",
       "name": "平台經濟",
       "entry_count": 3
     },
     {
-      "id": "theme-57",
+      "id": "theme-58",
       "name": "微型精密製造",
       "entry_count": 1
     },
     {
-      "id": "theme-58",
+      "id": "theme-59",
       "name": "技術分析",
       "entry_count": 2
     },
     {
-      "id": "theme-59",
+      "id": "theme-60",
       "name": "投資心理",
       "entry_count": 7
     },
     {
-      "id": "theme-60",
+      "id": "theme-61",
       "name": "投資策略",
       "entry_count": 34
     },
     {
-      "id": "theme-61",
+      "id": "theme-62",
       "name": "投資評級",
       "entry_count": 1
     },
     {
-      "id": "theme-62",
+      "id": "theme-63",
       "name": "投資風險",
-      "entry_count": 14
+      "entry_count": 15
     },
     {
-      "id": "theme-63",
+      "id": "theme-64",
       "name": "投资策略",
       "entry_count": 1
     },
     {
-      "id": "theme-64",
+      "id": "theme-65",
       "name": "持倉分享",
       "entry_count": 1
     },
     {
-      "id": "theme-65",
+      "id": "theme-66",
       "name": "新消費",
       "entry_count": 1
     },
     {
-      "id": "theme-66",
+      "id": "theme-67",
       "name": "新能源汽車供應鏈",
       "entry_count": 1
     },
     {
-      "id": "theme-67",
+      "id": "theme-68",
       "name": "新能源汽車產業鏈",
       "entry_count": 1
     },
     {
-      "id": "theme-68",
+      "id": "theme-69",
       "name": "新能源汽車零部件",
       "entry_count": 1
     },
     {
-      "id": "theme-69",
+      "id": "theme-70",
       "name": "新能源車",
       "entry_count": 2
     },
     {
-      "id": "theme-70",
+      "id": "theme-71",
       "name": "日經",
       "entry_count": 1
     },
     {
-      "id": "theme-71",
+      "id": "theme-72",
       "name": "月結",
       "entry_count": 1
     },
     {
-      "id": "theme-72",
+      "id": "theme-73",
       "name": "期權",
       "entry_count": 1
     },
     {
-      "id": "theme-73",
+      "id": "theme-74",
       "name": "末日論",
       "entry_count": 1
     },
     {
-      "id": "theme-74",
+      "id": "theme-75",
       "name": "業績",
       "entry_count": 1
     },
     {
-      "id": "theme-75",
+      "id": "theme-76",
       "name": "槓桿風險",
       "entry_count": 1
     },
     {
-      "id": "theme-76",
+      "id": "theme-77",
       "name": "樓價走勢",
       "entry_count": 2
     },
     {
-      "id": "theme-77",
+      "id": "theme-78",
       "name": "樓市周期",
       "entry_count": 1
     },
     {
-      "id": "theme-78",
+      "id": "theme-79",
       "name": "止蝕紀律",
       "entry_count": 9
     },
     {
-      "id": "theme-79",
+      "id": "theme-80",
       "name": "比特幣",
       "entry_count": 2
     },
     {
-      "id": "theme-80",
+      "id": "theme-81",
       "name": "汽車電動化",
       "entry_count": 1
     },
     {
-      "id": "theme-81",
+      "id": "theme-82",
       "name": "油價",
       "entry_count": 9
     },
     {
-      "id": "theme-82",
+      "id": "theme-83",
       "name": "流動性危機",
       "entry_count": 2
     },
     {
-      "id": "theme-83",
+      "id": "theme-84",
       "name": "消費出海",
       "entry_count": 1
     },
     {
-      "id": "theme-84",
+      "id": "theme-85",
       "name": "液冷散熱",
       "entry_count": 1
     },
     {
-      "id": "theme-85",
+      "id": "theme-86",
       "name": "減息",
       "entry_count": 1
     },
     {
-      "id": "theme-86",
+      "id": "theme-87",
       "name": "港交所",
       "entry_count": 1
     },
     {
-      "id": "theme-87",
+      "id": "theme-88",
       "name": "港樓",
       "entry_count": 1
     },
     {
-      "id": "theme-88",
+      "id": "theme-89",
       "name": "港股",
       "entry_count": 20
     },
     {
-      "id": "theme-89",
+      "id": "theme-90",
       "name": "港股消費股",
       "entry_count": 1
     },
     {
-      "id": "theme-90",
+      "id": "theme-91",
       "name": "港股策略",
       "entry_count": 1
     },
     {
-      "id": "theme-91",
+      "id": "theme-92",
       "name": "灰犀牛",
       "entry_count": 1
     },
     {
-      "id": "theme-92",
+      "id": "theme-93",
       "name": "私募信貸",
       "entry_count": 2
     },
     {
-      "id": "theme-93",
+      "id": "theme-94",
       "name": "科技",
       "entry_count": 1
     },
     {
-      "id": "theme-94",
+      "id": "theme-95",
       "name": "結構性調整",
       "entry_count": 1
     },
     {
-      "id": "theme-95",
+      "id": "theme-96",
       "name": "線上滲透率提升",
       "entry_count": 1
     },
     {
-      "id": "theme-96",
+      "id": "theme-97",
       "name": "美伊局勢",
       "entry_count": 1
     },
     {
-      "id": "theme-97",
+      "id": "theme-98",
       "name": "美國經濟",
       "entry_count": 1
     },
     {
-      "id": "theme-98",
+      "id": "theme-99",
       "name": "美股",
-      "entry_count": 13
+      "entry_count": 14
     },
     {
-      "id": "theme-99",
+      "id": "theme-100",
       "name": "聯儲局",
       "entry_count": 1
     },
     {
-      "id": "theme-100",
+      "id": "theme-101",
       "name": "聯儲局利率",
       "entry_count": 1
     },
     {
-      "id": "theme-101",
+      "id": "theme-102",
       "name": "聯繫匯率",
       "entry_count": 1
     },
     {
-      "id": "theme-102",
+      "id": "theme-103",
       "name": "能源",
       "entry_count": 1
     },
     {
-      "id": "theme-103",
+      "id": "theme-104",
       "name": "製造業",
       "entry_count": 1
     },
     {
-      "id": "theme-104",
+      "id": "theme-105",
       "name": "製造業升級",
       "entry_count": 1
     },
     {
-      "id": "theme-105",
+      "id": "theme-106",
       "name": "記憶體",
       "entry_count": 1
     },
     {
-      "id": "theme-106",
+      "id": "theme-107",
       "name": "設備更新週期",
       "entry_count": 1
     },
     {
-      "id": "theme-107",
+      "id": "theme-108",
       "name": "貨幣幻覺",
       "entry_count": 1
     },
     {
-      "id": "theme-108",
+      "id": "theme-109",
       "name": "資源股",
       "entry_count": 1
     },
     {
-      "id": "theme-109",
+      "id": "theme-110",
       "name": "資產配置",
       "entry_count": 1
     },
     {
-      "id": "theme-110",
+      "id": "theme-111",
       "name": "資金流",
       "entry_count": 1
     },
     {
-      "id": "theme-111",
+      "id": "theme-112",
       "name": "贖回潮",
       "entry_count": 1
     },
     {
-      "id": "theme-112",
+      "id": "theme-113",
       "name": "趨勢投資",
       "entry_count": 1
     },
     {
-      "id": "theme-113",
+      "id": "theme-114",
       "name": "軍工",
       "entry_count": 1
     },
     {
-      "id": "theme-114",
+      "id": "theme-115",
       "name": "軟件股",
       "entry_count": 1
     },
     {
-      "id": "theme-115",
+      "id": "theme-116",
       "name": "通脹",
       "entry_count": 1
     },
     {
-      "id": "theme-116",
+      "id": "theme-117",
       "name": "重資產",
       "entry_count": 1
     },
     {
-      "id": "theme-117",
+      "id": "theme-118",
       "name": "金價",
       "entry_count": 3
     },
     {
-      "id": "theme-118",
+      "id": "theme-119",
       "name": "金融海嘥",
       "entry_count": 1
     },
     {
-      "id": "theme-119",
+      "id": "theme-120",
       "name": "銀行收緊信貸",
       "entry_count": 1
     },
     {
-      "id": "theme-120",
+      "id": "theme-121",
       "name": "防騙",
       "entry_count": 2
     },
     {
-      "id": "theme-121",
+      "id": "theme-122",
       "name": "零售化",
       "entry_count": 1
     },
     {
-      "id": "theme-122",
+      "id": "theme-123",
       "name": "電力設備",
       "entry_count": 1
     },
     {
-      "id": "theme-123",
+      "id": "theme-124",
       "name": "風控",
       "entry_count": 1
     },
     {
-      "id": "theme-124",
+      "id": "theme-125",
       "name": "風險管理",
       "entry_count": 1
     },
     {
-      "id": "theme-125",
+      "id": "theme-126",
       "name": "香港樓市",
       "entry_count": 4
     },
     {
-      "id": "theme-126",
+      "id": "theme-127",
       "name": "香港樓市泡沫",
       "entry_count": 1
     },
     {
-      "id": "theme-127",
+      "id": "theme-128",
       "name": "高息股",
       "entry_count": 9
     },
     {
-      "id": "theme-128",
+      "id": "theme-129",
       "name": "高端消費品牌出海",
       "entry_count": 1
     },
     {
-      "id": "theme-129",
+      "id": "theme-130",
       "name": "黃金",
       "entry_count": 1
     },
     {
-      "id": "theme-130",
+      "id": "theme-131",
       "name": "黃金零售",
       "entry_count": 1
     }
