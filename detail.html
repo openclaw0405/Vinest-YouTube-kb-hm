@@ -198,7 +198,7 @@
 
             // 🔄 重評條件
             if (s['重評條件'] || s.catalyst_for_reassessment) {
-              html += '<div style="margin:8px 0;padding:8px 12px;background:#3A3028;border-radius:6px;font-size:12px;color:#A0524A">';
+              html += '<div style="margin:8px 0;padding:8px 12px;background:#3A3028;border-radius:6px;font-size:12px;color:#F0E8DC">';
               html += '🔄 重評條件：' + esc(s['重評條件'] || s.catalyst_for_reassessment);
               html += '</div>';
             }
@@ -280,7 +280,7 @@
 
               // Thesis (if v2 format)
               if (thesis) {
-                html += '<div style="margin:6px 0;padding:8px 10px;background:#3A3028;border-radius:6px;font-size:13px;color:#1C1814;line-height:1.5">';
+                html += '<div style="margin:6px 0;padding:8px 10px;background:#3A3028;border-radius:6px;font-size:13px;color:#F0E8DC;line-height:1.5">';
                 html += '<span style="color:#5A8A5E;font-weight:600">論點：</span>' + esc(thesis) + '</div>';
               }
 
@@ -335,7 +335,7 @@
 
               // Thesis (if v2 format)
               if (thesis) {
-                html += '<div style="margin:6px 0;padding:8px 10px;background:#3A3028;border-radius:6px;font-size:13px;color:#1C1814;line-height:1.5">';
+                html += '<div style="margin:6px 0;padding:8px 10px;background:#3A3028;border-radius:6px;font-size:13px;color:#F0E8DC;line-height:1.5">';
                 html += '<span style="color:#A0524A;font-weight:600">論點：</span>' + esc(thesis) + '</div>';
               }
 
@@ -493,16 +493,16 @@
             if (cr.source_a) {
               html += '<div class="source">';
               html += '<span class="source-name">A：' + esc(cr.source_a.name || '') + '</span>';
-              if (cr.source_a.view) html += '<div style="color:#1C1814;font-size:13px;margin-top:4px">' + esc(cr.source_a.view) + '</div>';
-              if (cr.source_a.premise) html += '<div style="color:#9A8A76;font-size:12px;margin-top:4px">前提：' + esc(cr.source_a.premise) + '</div>';
+              if (cr.source_a.view) html += '<div style="color:#F0E8DC;font-size:13px;margin-top:4px">' + esc(cr.source_a.view) + '</div>';
+              if (cr.source_a.premise) html += '<div style="color:#B8A898;font-size:12px;margin-top:4px">前提：' + esc(cr.source_a.premise) + '</div>';
               html += '</div>';
             }
 
             if (cr.source_b) {
               html += '<div class="source">';
               html += '<span class="source-name">B：' + esc(cr.source_b.name || '') + '</span>';
-              if (cr.source_b.view) html += '<div style="color:#1C1814;font-size:13px;margin-top:4px">' + esc(cr.source_b.view) + '</div>';
-              if (cr.source_b.premise) html += '<div style="color:#9A8A76;font-size:12px;margin-top:4px">前提：' + esc(cr.source_b.premise) + '</div>';
+              if (cr.source_b.view) html += '<div style="color:#F0E8DC;font-size:13px;margin-top:4px">' + esc(cr.source_b.view) + '</div>';
+              if (cr.source_b.premise) html += '<div style="color:#B8A898;font-size:12px;margin-top:4px">前提：' + esc(cr.source_b.premise) + '</div>';
               html += '</div>';
             }
 
