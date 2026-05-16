@@ -406,14 +406,17 @@ header nav a:hover, header nav a.active { color: var(--accent); }
 
 /* ─── MODAL ─── */
 .modal-overlay {
+  display: none;
   position: fixed;
   inset: 0;
   background: rgba(28, 24, 20, 0.6);
   backdrop-filter: blur(4px);
-  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 999;
+}
+.modal-overlay.active {
+  display: flex;
 }
 .modal {
   background: var(--bg-primary);
