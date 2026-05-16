@@ -3,81 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VINEST YouTube 投資知識庫</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=22">
+  <title>知識庫 - VINEST</title>
+  <link rel="stylesheet" href="styles.css?v=21">
 </head>
 <body>
   <div class="container">
     <header>
       <h1><a href="index.html">🧠 VINEST 投資知識庫</a></h1>
       <nav>
-        <a href="index.html" class="active">首頁</a>
-        <a href="library.html">知識庫</a>
+        <a href="index.html">首頁</a>
+        <a href="library.html" class="active">知識庫</a>
         <a href="#" onclick="openAddModal()">新增筆記</a>
       </nav>
     </header>
 
-    <!-- Search -->
     <div class="search-bar">
       <input type="text" id="searchInput" placeholder="搜尋公司、行業、主題、關鍵詞..." oninput="handleSearch()">
+      <select id="companyFilter" onchange="handleSearch()">
+        <option value="">全部公司</option>
+      </select>
+      <select id="sectorFilter" onchange="handleSearch()">
+        <option value="">全部行業</option>
+      </select>
+      <select id="themeFilter" onchange="handleSearch()">
+        <option value="">全部主題</option>
+      </select>
       <select id="typeFilter" onchange="handleSearch()">
         <option value="">全部類型</option>
         <option value="youtube">YouTube</option>
-        <option value="note">筆記</option>
+        <option value="pdf">PDF</option>
         <option value="report">報告</option>
-            <option value="pdf">PDF</option>
+        <option value="note">筆記</option>
+      </select>
+      <select id="sortFilter" onchange="handleSearch()">
+        <option value="date">最新日期</option>
+        <option value="updated">最近更新</option>
       </select>
     </div>
 
-    <!-- KPI Cards -->
-    <div class="kpi-grid">
-      <div class="kpi-card">
-        <label>總筆記數</label>
-        <strong id="kpiTotal">-</strong>
-      </div>
-      <div class="kpi-card">
-        <label>公司數</label>
-        <strong id="kpiCompanies">-</strong>
-      </div>
-      <div class="kpi-card">
-        <label>行業數</label>
-        <strong id="kpiSectors">-</strong>
-      </div>
-      <div class="kpi-card">
-        <label>主題數</label>
-        <strong id="kpiThemes">-</strong>
-      </div>
+    <div class="section">
+      <div class="card-grid" id="entriesGrid"></div>
     </div>
-
-    <!-- Recent Entries -->
-    <section class="section">
-      <h2>📝 最近新增</h2>
-      <div class="card-grid" id="recentGrid"></div>
-    </section>
-
-    <!-- Top Companies -->
-    <section class="section">
-      <h2>🏢 熱門公司</h2>
-      <div class="card-grid" id="companyGrid"></div>
-    </section>
-
-    <!-- Top Sectors -->
-    <section class="section">
-      <h2>📊 熱門行業</h2>
-      <div class="card-grid" id="sectorGrid"></div>
-    </section>
-
-    <!-- Top Themes -->
-    <section class="section">
-      <h2>🎯 熱門主題</h2>
-      <div class="card-grid" id="themeGrid"></div>
-    </section>
   </div>
 
-  <!-- Add Modal -->
   <div class="modal-overlay" id="addModal">
     <div class="modal">
       <h2>➕ 新增知識筆記</h2>
@@ -109,11 +77,11 @@
         </div>
         <div class="form-group">
           <label>簡短摘要 (140字以內)</label>
-          <textarea name="summary_short" rows="2" placeholder="一句話總結核心觀點"></textarea>
+          <textarea name="summary_short" rows="2"></textarea>
         </div>
         <div class="form-group">
           <label>詳細摘要</label>
-          <textarea name="summary_long" rows="4" placeholder="完整描述"></textarea>
+          <textarea name="summary_long" rows="4"></textarea>
         </div>
         <div class="form-group">
           <label>公司 (逗號分隔)</label>
@@ -129,23 +97,23 @@
         </div>
         <div class="form-group">
           <label>看好論點 (每行一點)</label>
-          <textarea name="bull_points" rows="3" placeholder="支持投資既論點"></textarea>
+          <textarea name="bull_points" rows="3"></textarea>
         </div>
         <div class="form-group">
           <label>看淡論點 (每行一點)</label>
-          <textarea name="bear_points" rows="3" placeholder="反對投資既論點"></textarea>
+          <textarea name="bear_points" rows="3"></textarea>
         </div>
         <div class="form-group">
           <label>催化劑 (每行一點)</label>
-          <textarea name="catalysts" rows="2" placeholder="可能觸發股價上升既因素"></textarea>
+          <textarea name="catalysts" rows="2"></textarea>
         </div>
         <div class="form-group">
           <label>風險 (每行一點)</label>
-          <textarea name="risks" rows="2" placeholder="潛在風險"></textarea>
+          <textarea name="risks" rows="2"></textarea>
         </div>
         <div class="form-group">
           <label>個人備註</label>
-          <textarea name="notes" rows="2" placeholder="自己既睇法、跟進事項"></textarea>
+          <textarea name="notes" rows="2"></textarea>
         </div>
         <div class="modal-actions">
           <button type="button" class="btn btn-secondary" onclick="closeAddModal()">取消</button>
@@ -157,46 +125,77 @@
 
   <script src="app.v22.js"></script>
   <script>
-    // Set default date
     document.getElementById('dateInput').value = new Date().toISOString().split('T')[0];
 
     async function init() {
       const data = await loadData();
+      const params = getParams();
+
+      // Populate filters
+      const companies = [...new Set(data.entries.flatMap(e => e.companies || []))].sort();
+      const sectors = [...new Set(data.entries.flatMap(e => e.sectors || []))].sort();
+      const themes = [...new Set(data.entries.flatMap(e => e.themes || []))].sort();
+
+      document.getElementById('companyFilter').innerHTML = '<option value="">全部公司</option>' + 
+        companies.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+      document.getElementById('sectorFilter').innerHTML = '<option value="">全部行業</option>' + 
+        sectors.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
+      document.getElementById('themeFilter').innerHTML = '<option value="">全部主題</option>' + 
+        themes.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
+
+      // Set filter values from URL
+      if (params.search) document.getElementById('searchInput').value = params.search;
+      if (params.company) document.getElementById('companyFilter').value = params.company;
+      if (params.sector) document.getElementById('sectorFilter').value = params.sector;
+      if (params.theme) document.getElementById('themeFilter').value = params.theme;
+      if (params.type) document.getElementById('typeFilter').value = params.type;
+
+      renderEntries();
+    }
+
+    async function renderEntries() {
+      const data = await loadData(); // cached
+      const params = getParams();
       
-      // KPI
-      const counts = VINEST.getEntityCounts(data.entries);
-      document.getElementById('kpiTotal').textContent = data.entries.length;
-      document.getElementById('kpiCompanies').textContent = counts.companies;
-      document.getElementById('kpiSectors').textContent = counts.sectors;
-      document.getElementById('kpiThemes').textContent = counts.themes;
+      let entries = data.entries || [];
+      
+      // Apply filters
+      if (params.search) {
+        entries = searchEntries(entries, params.search);
+      }
+      entries = filterEntries(entries, {
+        company: document.getElementById('companyFilter').value,
+        sector: document.getElementById('sectorFilter').value,
+        theme: document.getElementById('themeFilter').value,
+        source: new URLSearchParams(window.location.search).get('type') || ''
+      });
+      entries = sortEntries(entries, document.getElementById('sortFilter').value);
 
-      // Recent entries
-      const recent = VINEST.sortEntries(data.entries, 'date').slice(0, 6);
-      document.getElementById('recentGrid').innerHTML = recent.map(e => VINEST.entryCardHTML(e)).join('');
-
-      // Top companies
-      const topCompanies = VINEST.getTopEntities(data.entries, 'companies', 6);
-      document.getElementById('companyGrid').innerHTML = topCompanies.map(c => 
-        VINEST.entityCardHTML(c.name, c.count, `company.html?company=${encodeURIComponent(c.name)}`)
-      ).join('');
-
-      // Top sectors
-      const topSectors = VINEST.getTopEntities(data.entries, 'sectors', 6);
-      document.getElementById('sectorGrid').innerHTML = topSectors.map(s => 
-        VINEST.entityCardHTML(s.name, s.count, `sector.html?sector=${encodeURIComponent(s.name)}`)
-      ).join('');
-
-      // Top themes
-      const topThemes = VINEST.getTopEntities(data.entries, 'themes', 6);
-      document.getElementById('themeGrid').innerHTML = topThemes.map(t => 
-        VINEST.entityCardHTML(t.name, t.count, `theme.html?theme=${encodeURIComponent(t.name)}`)
-      ).join('');
+      const grid = document.getElementById('entriesGrid');
+      if (entries.length === 0) {
+        grid.innerHTML = '<div class="empty-state">暫無筆記</div>';
+      } else {
+        grid.innerHTML = entries.map(e => VINEST.entryCardHTML(e)).join('');
+      }
     }
 
     function handleSearch() {
       const q = document.getElementById('searchInput').value;
+      const company = document.getElementById('companyFilter').value;
+      const sector = document.getElementById('sectorFilter').value;
+      const theme = document.getElementById('themeFilter').value;
       const type = document.getElementById('typeFilter').value;
-      window.location.href = `library.html?q=${encodeURIComponent(q)}&type=${type}`;
+      const sort = document.getElementById('sortFilter').value;
+      
+      const url = new URL(window.location.href);
+      url.searchParams.set('q', q);
+      // Always set filters (empty string removes param)
+      url.searchParams.set('company', company);
+      url.searchParams.set('sector', sector);
+      url.searchParams.set('theme', theme);
+      url.searchParams.set('type', type);
+      url.searchParams.set('sort', sort);
+      window.location.href = url.toString();
     }
 
     function openAddModal() {
@@ -232,7 +231,6 @@
         updated_at: new Date().toISOString()
       };
 
-      // Save to localStorage (MVP)
       const key = 'vinest-kb-entries';
       const existing = JSON.parse(localStorage.getItem(key) || '[]');
       existing.unshift(entry);
@@ -240,7 +238,7 @@
 
       closeAddModal();
       alert('已儲存！');
-      init();
+      window.location.reload();
     }
 
     init();
