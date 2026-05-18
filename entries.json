@@ -3,45 +3,120 @@
     {
       "id": "ent-20260518-XQ0Hr2PgAmw",
       "title": "【千萬收息組合公開】高息ETF 3416 破17厘息，20萬撈底加倉｜兩隻高息ETF 逆市上升，值得長期持有！3416 蝕價點部署",
-      "source_name": "未知（Henry 理財頻道）",
+      "source_name": "Henry 理財頻道",
       "source_url": "https://www.youtube.com/watch?v=XQ0Hr2PgAmw",
       "source_type": "youtube",
       "date": "2026-05-18",
-      "speaker": "Henry（理財KOL）",
-      "summary_short": "高息ETF 3416、3110、2802 分析；投資者趁跌市加倉，收息組合突破千萬港幣。",
-      "summary_long": "Henry 分享他在股市波動期間的投資策略，披露其收息組合已突破千萬港幣。他趁低加倉高息ETF（3416、3110、2802），並將收到的股息再投資，同時月供VOO及買債。節目分析高息ETF在逆市中上升的原因，以及如何在蝕價時部署。",
+      "speaker": "Henry（25歲財務自由、專業投資者）",
+      "summary_short": "Covered Call ETF（3416、2802）vs 傳統高息ETF（3110、3190）深度比較；Henry公開千萬收息組合操作。",
+      "summary_long": "Henry分析 Covered Call ETF（Global X 旗下 3416、2802）與傳統高息ETF（3110、3190）的分別。他強調 Covered Call 策略並非「識跌唔識升」，而是將動能轉化為期權金收入。節目引用 JEPQ vs QQQ 的夏普比率（1.62 vs 1.43）證明風險調整後回報更佳。Henry 披露個人千萬收息組合已突破千萬港元，月供 VOO + 買債，並將 3416 股息再投資。",
       "key_points": [
-        "高息ETF 3416 突破17厘息，逆市上升",
-        "Henry 趁跌市動用20萬港幣加倉",
-        "收息組合已達千萬港幣以上",
-        "將股息再投資（reinvest）入3416",
-        "月供VOO及買債，投資步伐清晰",
-        "分析 3416、3110、2802 三隻高息ETF",
-        "歐洲滑雪期間仍透過WhatsApp與Group分享操作"
+        "Covered Call ETF（3416、2802）每月靠沽出期權金賺取收入，而非靠底層資產升值",
+        "3416 在 $9.4 港元水平時入手，相當於年化 17 厘派息",
+        "Henry 收息組合突破千萬港元，每月收息約 4.5 萬港元",
+        "JEPQ（納斯達克100 Covered Call）夏普比率 1.62，高於 QQQ 的 1.43，風險調整後表現更佳",
+        "3110 去年總回報 41%（含派息再投資），股價回報 33%",
+        "Henry 月供 VOO + 買債，並將 3416 股息再滾入",
+        "Covered Call 策略在美股已驗證：回報落後大市，但波動低 1/3，長期月供是最佳用法"
       ],
-      "transcript_quality": "無字幕，屬Path A entry",
-      "notes": "⚠️ Path A entry：無 transcript，內容基於片名及描述創建。",
+      "core_thesis": {
+        "market": "港股高息ETF逆市上升，3416在跌市時提供17厘息，是收息族的地基資產",
+        "hk_platform": "Covered Call ETF（3416 Global X HSI Covered Call、2802）vs 傳統高息ETF（3110、3190）",
+        "a_shares": null,
+        "gold": null,
+        "us_ai": null
+      },
+      "insights": [
+        "Covered Call ETF 不是「識跌唔識升」，而是將股價上升的動能轉化為期權金收入，直接放進投資者口袋",
+        "3416 和 2802 每月開倉 8900 點（國指），貼近價或輕微價外",
+        "Covered Call 策略適合：正在建立持倉、月供、願意以時間換穩定收入的人",
+        "JEPQ vs QQQ：三年回報落後，但夏普比率更高（1.62 vs 1.43），證明風險調整後 Covered Call 更值",
+        "國指波動大 → 引伸波幅高 → 期權金厚 → 3416 派息高，這是為何 3416 能派 16-18 厘",
+        "月供是最優策略：貴時買少啲，平時買多啲，平滑成本"
+      ],
+      "stock_recommendations": [
+        {
+          "ticker": "3416",
+          "name": "Global X 中國股債收息ETF",
+          "action": "月供 / 分注買入",
+          "thesis": "$9.4 水平入手 = 17厘年化息率",
+          "risk": "國指波動大；上漲時會落後大市"
+        },
+        {
+          "ticker": "2802",
+          "name": "Global X 恒指 covered call",
+          "action": "月供 / 分注買入",
+          "thesis": "同 3416 原理，國指高位派息更厚",
+          "risk": "國指波動；上漲有限"
+        },
+        {
+          "ticker": "3110",
+          "name": "恒生高股息率ETF",
+          "action": "持有",
+          "thesis": "錢罌概念：底層資產升值 + 派息；去年總回報41%",
+          "risk": "派息後股價可持續受壓"
+        },
+        {
+          "ticker": "3190",
+          "name": "恒生ESG ETF",
+          "action": "持有",
+          "thesis": "與3110同原理，派息月份支撐股價",
+          "risk": "ESG 政策風險"
+        },
+        {
+          "ticker": "VOO",
+          "name": "Vanguard S&P 500 ETF",
+          "action": "月供",
+          "thesis": "長線增長，每月持續月供",
+          "risk": "美股波動"
+        }
+      ],
+      "catalysts": [
+        "國指持續在 8700 點水平橫行，Covered Call 期權金收入穩定",
+        "美股調整期間，Covered Call 策略表現抗跌",
+        "券商禮物（Webull 2800元、華泰 2400元）降低入場成本"
+      ],
+      "risks": [
+        "Covered Call 策略在單邊上升市中會落後大市（國指急升時 3416 無法捕捉全部升幅）",
+        "國指波動性取決於中美關係、宏觀經濟，有別於美股長期向上的特性",
+        "3416 管理費 0.75%，侵蝕部分期權金收入"
+      ],
+      "logic_chains": {
+        "covered_call原理": "國指高波幅 → 期權金厚 → 3416派息高（16-18厘）；國指平穩 → 期權金薄 → 派息降",
+        "JEPQ_vs_QQQ": "JEPQ三年回報<QQQ，但夏普比率1.62>QQQ的1.43 → 承受相同風險，JEPQ回報更高",
+        "月供策略": "月供平滑成本 + 股息再投資 + 複利效應 = 長期複利機器"
+      },
+      "macro_regime": "避險市場：高息ETF及Covered Call策略在宏觀不確定性下提供穩定現金流",
+      "investment_mindset": "長線地基資產思維，以十年計算，拒絕短期波動影響投資節奏",
+      "personal_insights": "Henry 25歲財務自由，靠的是：1）建立地基資產；2）月供不追勢；3）分散ETF+債券；4）股息再投資滾雪球",
+      "transcript_quality": "zh-HK 字幕，完整收錄，約12分鐘內容全在",
+      "notes": "Path B entry，zh-HK 字幕完整下載分析",
       "companies": [],
       "sectors": [
         "ETF",
         "收息股",
-        "被動收入"
+        "被動收入",
+        "Covered Call"
       ],
       "themes": [
         "高息ETF",
-        "收息組合",
+        "Covered Call策略",
         "月供VOO",
         "逆市加倉",
-        "被動收入"
+        "被動收入",
+        "錢罌理論"
       ],
       "tickers": [
         "3416",
-        "3110",
         "2802",
-        "VOO"
+        "3110",
+        "3190",
+        "VOO",
+        "JEPQ",
+        "QQQ"
       ],
-      "created_at": "2026-05-19T00:49:57.144657",
-      "updated_at": "2026-05-19T00:49:57.144661"
+      "created_at": "2026-05-19T00:53:18.729466",
+      "updated_at": "2026-05-19T00:53:18.729475"
     },
     {
       "id": "ent-20260518-SpaceX-wwBfBQeNGCw",
