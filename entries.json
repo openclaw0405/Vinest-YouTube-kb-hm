@@ -2181,6 +2181,203 @@
       "updated_at": "2026-05-15T00:00:00.000000"
     },
     {
+      "id": "ent-20260514-AI操盤手-KevinWarsh",
+      "title": "新節目登場！美股泡沫倒數？三星、美光單日狂升10%唔正常！Kevin Warsh上任引發美股回調？【LIVE AI操盤手】2026/5/14",
+      "source_name": "Money Tab — AI操盤手",
+      "source_url": "https://www.youtube.com/live/-lFuYPn4_Qw",
+      "source_type": "youtube",
+      "date": "2026-05-14",
+      "speaker": "王榮昆（主持）、James（嘉賓）、Dennis（嘉賓）",
+      "summary_short": "Money Tab新節目AI操盤手首播：James同Dennis拆解美股估值、聯儲局新主席Kevin Warsh的政策取態、AI投資週期與散戶生存之道。核心命題係美股估值未算癲（標普21倍遠期P/E），但AI期望已打得非常貴；Kevin Warsh作風神秘，市場定有好大discount。",
+      "summary_long": "Money Tab AI操盤手第一集，James（機構投資者）同Dennis（宏觀分析）聯同王榮昆做主持。內容分四大板塊：一）美股估值分析：標普500遠期P/E 21倍，盈利增長26%，未算泡沫，但個別股票（如Micron、Samsung）已出現極短時間爆升10%的非理性亢奮；二）聯儲局新主席Kevin Warsh：被視為「自動駕駛派」，減少公開言論，改變前任透明化管理作風，市場短期難以解讀政策方向，估計九月附近才有機會減息，同時進行QT收縮资产负债表；三）AI投資：全球正處史上最大AI基建週期，NVIDIA Blackwell架構成本較上一代跌30-40%，為明年收成期提供條件，但AI最終有幾多日（Gartner炒作週期）仍是未知數；四）港股Vs美股配置：James機構角度認為港股配置一向好唔同，美股流動性高、容易被對沖，港股莊家容易操控，短線操作極難。節目尾段觸及AI使用局限：ChatGPT/Claude等大語言模型在數字計算上常犯錯，需要人類監管。",
+      "key_points": [
+        "標普500遠期P/E 21倍，2026年盈利增長預期26%，基本面具靭力，未算泡沫",
+        "AI基建投資週期史上最大：Gartner Hype Cycle仲處於「期望爆升期」，但最終有幾多日（實際落地）仍是未知數",
+        "NVIDIA Blackwell成本較上代跌30-40%，明年（2027）進入「收成期」機會高，但呢個係共識，市場已反映",
+        "Kevin Warsh作風：減少言論、唔做太多前瞻指引（forward guidance），市場好難讀，會為政策預期帶來不確定性",
+        "估計Kevin Warsh第一個政策窗口：2026年9月附近，屆時同時做QT收縮資產負債表",
+        "機構配置：美股相對港股更受機構青睞，原因係港股容易被莊家操控、成交唔夠、美股有完善對沖工具",
+        "AI工具局限：大語言模型（ChatGPT/Claude）喺數字計算上常犯錯，唔可以完全依賴；散戶要自己建立分析框架，AI只係輔助",
+        "美股sentiment仍未去到1999年科網熱水平：機構持倉比例高（80%），但散戶尚未全面入市",
+        "美債曲線趨勢：短債息升得快過長債（倒掛），對經濟走向唔算太過負面",
+        "James私人操作：港股短線期權對沖，標普500 7350水平如有突發新聞可急速下跌，建議散戶用Long Put做保險"
+      ],
+      "core_thesis": {
+        "market": "美股估值未算癲，但AI期望已打得非常貴；聯儲局新主席Kevin Warsh作風神秘，市場短期波動加劇；港股落後全球主要市場，但機構唔願配置",
+        "hk_platform": "港股相對美股有巨大估值折讓（A股更明顯），但缺乏催化劑；散戶喺港股短線操作極難，莊家操控常見",
+        "a_shares": "A股喺AI能力上追得好近美國，但外國投資者對中國市場有戒心；長遠取決於中美關係",
+        "gold": null,
+        "us_ai": "AI基建投資史上最大，但最終有幾多日仍未知；NVIDIA Blackwell成本下跌30-40%，為2027年收成期提供條件；建議留意軟件股第三季度業績"
+      },
+      "insights": [
+        {
+          "label": "美股估值框架",
+          "content": "標普500遠期P/E 21倍，2026年盈利增長26%——用盈利睇估值，21倍P/E未算貴；但個別股票（如Micron單日升10%）已進入非理性亢奮階段。James嘅判斷：未到1999年科網熱水平，但需要小心。"
+        },
+        {
+          "label": "AI敎炒週期判斷",
+          "content": "Dennis提出Gartner Hype Cycle框架：目前AI仲處於'期望爆升期'（peak of inflated expectations）。機構共識：NVIDIA Blackwell成本下跌30-40%，2027年進入收成期。但問題係市場已經反映晒呢個共識，如果最終AI落地嘅效益低於期望，股價會點？"
+        },
+        {
+          "label": "機構持倉 vs 散戶",
+          "content": "James提出'機構持仓80%'論：如果機構持有晒市面上80%股票，净得20%流動性，呢20%被人夾幾倍價格輕而易舉。但佢認為目前散戶未全面入市（唔似1999年所有人跳舞入市），所以未算真正泡沫。"
+        },
+        {
+          "label": "Kevin Warsh政策風格",
+          "content": "Kevin Warsh被視為'自動駕駛派'：減少前瞻指引，減少公開言論，改變由Bernanke建立起嚟嘅'透明派'作風。佢嘅取態：市場自己要識讀政策暗示，聯儲局唔會提前透露太多。呢種作風令市場難以預測，但同時消除部分'聯儲局對市場嘅依賴'。"
+        },
+        {
+          "label": "美股配置相對港股優勢",
+          "content": "James機構角度：美股市場深度夠、對沖工具多（options、futures、SWAPS）、遇到風險可以迅速走位；港股成交稀薄、容易被操控（15年大時代曾經出現交易所電腦故障导致无法平仓），呢個係機構配置上偏好美股嘅核心原因。"
+        },
+        {
+          "label": "AI工具局限",
+          "content": "Dennis親身經歷：ChatGPT回答投資問題時，會因為'to make a counter-argument'而自己作數據出嚟。結論：AI可以幫助資訊整合同文字加工，但數字計算、股票估值呢類需要精確嘅工作，人類必須校對。"
+        },
+        {
+          "label": "AI時代散戶生存之道",
+          "content": "節目核心訊息：AI係工具，唔係替代品。散戶需要建立自己嘅'分析框架'，知道點樣問問題（prompt engineering），然後先至用AI幫你整合資訊。如果連分析框架都冇，AI幫你整理嘅資料一樣會引導你入錯方向。"
+        },
+        {
+          "label": "凱莉•Warsh（Kevin Warsh）時間窗口",
+          "content": "Dennis估計：Kevin Warsh第一個政策動作（減息）會喺2026年9月附近，期間會進行QT收縮資產負債表（同時間美債曲線短債跑輸長債）。2026年11月有中期選舉， Trump喺民調落後，呢個會係政策嘅另一個約束因素。"
+        }
+      ],
+      "stock_recommendations": [
+        {
+          "ticker": "NVDA",
+          "action": "持有（長線）",
+          "entry": "N/A",
+          "thesis": "AI基建週期核心受益者；Blackwell成本跌30-40%，2027年收成期；機構投資者必備配置",
+          "core_vs_satellite": "core（AI基建核心倉）",
+          "risk": "市場已反映2027年收成期共識；最終AI落地效益若低於預期，股價有回調風險",
+          "weight": "James同Dennis都認為NVDA係呢個週期嘅最大受益者，但唔係建议而家追入"
+        },
+        {
+          "ticker": "MU（美光）",
+          "action": "短線注意",
+          "entry": "N/A",
+          "thesis": "HBM記憶體需求強勁，但單日升10%已進入非理性亢奮階段，短線唔建議追",
+          "core_vs_satellite": "satellite（AI記憶體）",
+          "risk": "波動極大；Samsung喺同一交易日亦升10%，顯示記憶體板塊整體過熱"
+        },
+        {
+          "ticker": "MSFT",
+          "action": "持有",
+          "entry": "N/A",
+          "thesis": "AI投資大戶；資本開支巨大但同時有能力將AI变现（Copilot）；軟件股第三季度業績係下一個關鍵考驗",
+          "core_vs_satellite": "core",
+          "risk": "資本開支高峰期利潤率受壓；軟件股過去盈利預期已下調，警惕第三季度業績令sentiment再轉差"
+        },
+        {
+          "ticker": "GOOGL",
+          "action": "持有",
+          "entry": "N/A",
+          "thesis": "AI能力追到GPT-4落後唔遠，但估值相對NVDA有折讓；廣告業務復蘇提供防守性",
+          "core_vs_satellite": "core（AI + 廣告）",
+          "risk": "廣告業務復蘇速度落後預期；AI競争加劇"
+        },
+        {
+          "ticker": "AMZN",
+          "action": "持有",
+          "entry": "N/A",
+          "thesis": "AWS資本開支巨大但提供基礎設施支撐；電子商務利潤率改善；相對其他AI受益股估值合理",
+          "core_vs_satellite": "satellite",
+          "risk": "AWS面對Microsoft、Google競爭加劇；電商利潤率受壓"
+        },
+        {
+          "ticker": "SPX（標普500 ETF）",
+          "action": "長線持有",
+          "entry": "Any dip",
+          "thesis": "21倍遠期P/E，盈利增長26%，未算貴；機構投资者必備嘅市場Beta",
+          "core_vs_satellite": "core（市場Beta）",
+          "risk": "短期因為地緣政治或聯儲局言論而出現技術調整"
+        },
+        {
+          "ticker": "QQQ",
+          "action": "月供",
+          "entry": "継続月供",
+          "thesis": "納斯達克100指數；長線分享科技股增長；可以用LEAPS期權代替直接持有",
+          "core_vs_satellite": "core（科技增長）",
+          "risk": "集中於科技股，波動性高於SPX"
+        },
+        {
+          "ticker": "個股期權（港股）",
+          "action": "短線對沖工具",
+          "entry": "N/A",
+          "thesis": "James透露機構用個股期權對沖港股風險，因為港股莊家操控常見，唔可以直接大手走位",
+          "core_vs_satellite": "對冲工具",
+          "risk": "成本高；需要專業知識"
+        }
+      ],
+      "catalysts": [
+        "Kevin Warsh 6月記者會：第一次明確表露政策取向",
+        "2026年9月：可能係Kevin Warsh第一次減息窗口，同時進行QT",
+        "2026年11月：美國中期選舉， Trump民調落後，預期執政黨失利，可能引發政策轉向",
+        "2026年第三季度：軟件股業績（包括Microsoft、Google、Palantir等）係AI能否落地嘅關鍵試金石",
+        "地緣政治：美伊戰爭未停，美中關係談判進行中隨時影響市場"
+      ],
+      "risks": [
+        "AI期望過高：市場已反映2027年收成期，但最終AI實際落地應用可能低於期望，導致估值回調",
+        "聯儲局政策不確定性：Kevin Warsh作風神秘，市場難以預測，增加波動性",
+        "港股結構性弱點：成交稀薄、容易被操控、缺乏完善對沖工具，機構持續低配",
+        "美股集中風險：過去幾年主要靠幾隻大科技股指數上升，如果呢啲股票回調，指數跌幅會好大",
+        "Private Credit風險：Jamie Dimon（摩根大通）警告私人信用市場（private credit）已經膨脹似2008年結構性問題",
+        "散戶被AI錯誤引導：大語言模型會自己作數據，投資者需要具備基本核查能力"
+      ],
+      "logic_chains": {
+        "美股估值框架": "標普P/E 21倍（合理） + 盈利增長26%（強勁） → 未算泡沫；但個別股票（Micron、Samsung）單日升10%顯示局部過熱",
+        "AI週期判斷": "史上最大投資週期（類似早年的大型基建潮）→ 初期GPU/硬件需求爆發 → 現已反映晒2027年收成期共識 → 關鍵問題：最終AI實際落地有幾多？",
+        "Kevin_Warsh分析": "自動駕駛派作風 → 減少前瞻指引 → 市場無法預測政策方向 → 政策不確定性溢價上升 → 短期波動加劇",
+        "港股配置": "機構持倉低 + 成交稀薄 + 容易被操控 → 對沖成本高 → 機構寧願配置美股",
+        "AI工具局限": "LLM計算經常犯錯（'to make a counter-argument'自己作數） → 人類必須校對 → AI係辅助工具唔係替代品"
+      },
+      "macro_regime": "避險 + 收緊政策週期：聯儲局新主席作風不明、美債倒掛持續、地緣政治不穩（美伊戰爭未停），但企業盈利仍然靭力",
+      "investment_mindset": "James同Dennis都強調：AI係工具，人類需要建立自己嘅分析框架。盲目相信AI輸出會被誤導。散戶應該用AI輔助研究，但唔好完全依賴。用AI問問題係一門技能（Prompt Engineering），下一代投資者必備。",
+      "personal_insights": "Money Tab新節目AI操盤手嘅定位：用AI輔助投資分析，但唔係AI取代人類判斷。James係機構投資者角度，Dennis係宏觀分析角度，兩者互補。王榮昆係橋樑角色。呢個組合嘅節目風格：少數民族（機構 + 宏觀 + 散戶教育）三位一體，喺香港YouTube投資節目中比較少見。",
+      "transcript_quality": "yue（Cantonese）字幕，866段，非常完整，12分鐘內容全部收錄，包括所有嘉賓觀點、數據引用、個人故事",
+      "notes": "Path B deep entry，完整分析 Cantonese transcript，提取曉所有投資觀點、股票建議、宏觀框架、聯儲局分析、AI使用建議",
+      "companies": [
+        "Samsung",
+        "Micron",
+        "NVIDIA",
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "JPMorgan"
+      ],
+      "sectors": [
+        "AI",
+        "美股",
+        "港股",
+        "半導體",
+        "宏觀經濟",
+        "聯儲局",
+        "投資工具"
+      ],
+      "themes": [
+        "美股估值",
+        "AI投資週期",
+        "Kevin Warsh",
+        "聯儲局政策",
+        "港股配置",
+        "AI工具局限",
+        "機構vs散戶",
+        "Gartner Hype Cycle"
+      ],
+      "tickers": [
+        "NVDA",
+        "MU",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "SPX",
+        "QQQ",
+        "SK",
+        "0060"
+      ]
+    },
+    {
       "id": "ent-20260516-002603-nrFLyZ0FdhQ",
       "title": "【索索清談】特朗普帶美國超強商界代表團訪華丨紅磡索螺絲丨財務自由丨真實倉位丨 14/5/2025",
       "source_name": "紅磡索螺絲",
