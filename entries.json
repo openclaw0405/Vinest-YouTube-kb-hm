@@ -17677,9 +17677,333 @@
       "tickers": [],
       "created_at": "2026-04-29T18:14:00+01:00",
       "updated_at": "2026-04-29T18:14:00+01:00"
+    },
+    {
+      "id": "ent-20260601-wKooeWT3vs8",
+      "title": "【索索清談】內存股繼續瘋狂，MU股票破$1000丨紅磡索螺絲丨財務自由丨真實倉位丨 01/6/2026",
+      "source_name": "紅磡索螺絲",
+      "source_url": "https://www.youtube.com/live/wKooeWT3vs8",
+      "source_type": "youtube",
+      "date": "2026-06-01",
+      "speaker": "紅磡索螺絲",
+      "summary_short": "索大分享近期美股操作：MU（Micron）坐倉承受大幅回調（孭倉）批評自己Risk/Reward差；軟件股開始跑贏硬件股（Rotation）；港股只坐騰訊和平醫；美股短線炒作全停。核心訊息：知道自己的能力圈邊界，比判断个股更紧要。",
+      "summary_long": "索大在节目中分享了他近期的投资操作和反思。他承认自己投资MU（Micron）承受了重大损失，是一个「差的trade」——他承担的風險與回報不成比例。他詳細分析了自己「炒嘢」的壞習慣：贏錢時會不斷加注、紀律性差，最終導致帳面富足但實際資金效率極低。他明確區分了「好的trade」與「差的trade」：好的trade是以合理的風險承受取得合理的回報，而不是以巨大的風險賭注博取少量利潤。節目中他宣佈全面停止美股短線炒作，將資金轉移到美債，反映出他對自己短線操作能力的質疑，以及對當前市場性價比的重新評估。",
+      "key_points": [
+        "MU（Micron）跌破後大幅反彈，索大批評自己孭倉太多，風險與回報不成比例",
+        "Micron的股價波動並非直線上升，而是有明顯回調，他曾「食過風險」但仍然承受巨大帳面虧損",
+        "「好的trade」定義：以合理風險承受取得合理回報；「差的trade」：以巨大風險承擔只賺微薄利潤",
+        "自己「炒嘢」習慣差：贏錢時不斷加注、有紀律但缺乏撤退紀律，導致資金效率低",
+        "軟件股（CRM、PLTR、PNW等）近期開始跑贏硬件股（NVDA、MU），市場Rotation正在發生",
+        "巴郡（BRK）、TSM等是他能坐到的股票，因為了解業務能力圈",
+        "美股短線炒作已全停，資金轉移至美債（5年/10年國債收益率4-5厘）",
+        "Intel的CPU業務落後AMD，HBM內存市場被NVDA等抢走，基本面不支持當前估值",
+        "港股只坐騰訊（#0700）和平醫（#3750），其餘不考慮",
+        "知道自己的能力圈邊界是43歲投資者的核心認知：自己不懂AI、半導體新技術，只做了解的業務"
+      ],
+      "stock_recommendations": [
+        {
+          "ticker": "MU",
+          "name": "Micron",
+          "direction": "short-term_trade",
+          "note": "曾經操作，風險極大",
+          "thesis": "他承認這個倉位是「差的trade」——孭倉承受巨大風險，但回報不相稱。波動大且不可預測",
+          "speaker_rationale": "自己孭倉最多，一度帳面虧損超過一千萬美金（5000股），這不是以合理風險換取合理回報的操作",
+          "thesis_status": "已止損/減倉",
+          "reassessment_condition": "除非能以較低成本重新進場並嚴格設止損"
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "direction": "underperform",
+          "note": "最差的CPU公司",
+          "thesis": "Intel在CPU市場被AMD超越，在HBM內存市場被NVDA搶走份額，基本面落後",
+          "speaker_rationale": "上個禮拜股價大跌，公司業務與NVDA完全不同，技術實力不足",
+          "thesis_status": "看淡",
+          "reassessment_condition": "需要等待新管理層拿出實際技術突破"
+        },
+        {
+          "ticker": "BRK",
+          "name": "Berkshire Hathaway",
+          "direction": "long",
+          "note": "長倉，PE約20倍",
+          "thesis": "索大能坐到的股票之一，因為他了解保險和投資業務",
+          "speaker_rationale": "自己43歲，有二十几年投资经验，BRK的业务模式他能看懂且能坐得住",
+          "thesis_status": "持有",
+          "reassessment_condition": "PE在历史区间内"
+        },
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "direction": "long",
+          "note": "長倉",
+          "thesis": "上週股價爆升，是他能理解和坐到的少數半導體股",
+          "speaker_rationale": "他能理解晶片製造業務，並且在上週看到美股時注意到TSM突破，他有買",
+          "thesis_status": "持有",
+          "reassessment_condition": "繼續持有"
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "direction": "long",
+          "note": "軟件股，短線",
+          "thesis": "軟件股近期開始跑贏硬件股，CRM是其中之一",
+          "speaker_rationale": "短線炒作軟件股，市場開始rotation",
+          "thesis_status": "持有",
+          "reassessment_condition": "短線操作"
+        },
+        {
+          "ticker": "PLTR",
+          "name": "Palantir",
+          "direction": "long",
+          "note": "軟件股",
+          "thesis": "軟件股rotation受益者",
+          "speaker_rationale": "同上，短線炒作軟件股之一",
+          "thesis_status": "持有",
+          "reassessment_condition": "短線操作"
+        },
+        {
+          "ticker": "PNW",
+          "name": "PNW",
+          "direction": "long",
+          "note": "軟件股",
+          "thesis": "軟件股rotation受益者",
+          "speaker_rationale": "短線炒作軟件股之一",
+          "thesis_status": "持有",
+          "reassessment_condition": "短線操作"
+        },
+        {
+          "ticker": "0700",
+          "name": "騰訊",
+          "direction": "long",
+          "note": "長倉",
+          "thesis": "騰訊是他的核心長倉之一，估值平",
+          "speaker_rationale": "他有自己的標準——騰訊PE低、業務清晰，能坐到",
+          "thesis_status": "持有",
+          "reassessment_condition": "長線持有"
+        },
+        {
+          "ticker": "3750",
+          "name": "平醫",
+          "direction": "long",
+          "note": "長倉",
+          "thesis": "平醫是他的長倉之一，性價比高",
+          "speaker_rationale": "他能理解平醫的業務，性價比合理，是他能坐到少數港股之一",
+          "thesis_status": "持有",
+          "reassessment_condition": "長線持有"
+        }
+      ],
+      "core_thesis": {
+        "風險與回報": "「好的trade」核心是以合理風險承受取得合理回報。MU的操作是一個「差的trade」——孭倉風險極大但回報不成比例。以巨大風險博取小利潤，長期下去必然輸錢。",
+        "能力圈": "43歲的投資者知道自己不懂AI和半導體新技術，只能做自己了解的業務。Intel坐不到因為不了解CPU技術細節，BRK和騰訊能坐到因為了解業務模式。",
+        "Rotation": "市場資金正從硬件股（NVDA、MU）流向軟件股（CRM、PLTR、PNW）。硬件股回調時軟件股創出新高，調整結束前軟件股更值得短線炒作。",
+        "美債作為現金流工具": "將部分資金轉移到美債（5年/10年債），放棄收息股，因為當前風險回報不劃算。美債4-5厘回報與高股息股票風險相似，沒有必要冒險。"
+      },
+      "investment_mindset": {
+        "philosophy": "知道自己的能力圈邊界，比判断个股更紧要。美股短線炒作已全停，因為承認自己沒有纪律承受大波动。资金转移到美债是承认自己能力圈限制的结果。",
+        "distinctions": [
+          "好的trade vs 差的trade：合理風險換合理回報 vs 巨大風險換微薄利潤",
+          "能坐到 vs 不能坐到：了解業務的股票才能長倉，不了解的只能短線炒作",
+          "硬件 vs 軟件：硬件波動大且需要技術理解，軟件有穩定現金流但估值高",
+          "美股短線 vs 美股長倉：短線需要紀律和快速止損，他承認自己做不到",
+          "BRK和騰訊是「能坐到」的核心倉位，因為他了解業務"
+        ],
+        "process": [
+          "美股操作：已全停短線炒作，資金轉移到美債",
+          "港股操作：只坐騰訊和平醫，其他不考慮",
+          "軟件股短線：有時會炒作CRM、PLTR、PNW，但規模不大",
+          "長倉核心：BRK、TSM、騰訊、平醫，以舒適為主",
+          "定期檢討自己的「差的trade」，總結風險承擔是否合理"
+        ]
+      },
+      "personal_insights": "這集節目是索大少有地公開自我檢討。他承認自己「孭咗風險但站唔到」，並說「真心嬲呢樣嘢」。他的風險承受能力是有的，但他在MU這個trade上的風險/回報比率極差——他承担了10個單位的風險，但可能只赚了2-5个单位。他反复强调「窮人炒股」的心態問題：赢了不甘心走，输了又不甘心走，最终資金效率极低。這是他要戰勝自己的核心問題。",
+      "bull_cases": [
+        "【軟件股】資金rotation效應顯著，CRM、PLTR、PNW等軟件股近期創出新高",
+        "【TSM】上週股價突破，索大有買入並建議觀望",
+        "【美團】外賣業務相對穩健，但盈利模式仍有待觀察",
+        "【騰訊】估值便宜，PE低，能坐到，是少數他願意長倉的港股"
+      ],
+      "bear_cases": [
+        "【硬件股】MU、NVDA等內存/硬件股開始回調，市場資金正在撤離",
+        "【Intel】CPU業務持續落後AMD，HBM市場被NVDA等拿走，基本面不支持估值",
+        "【美團】盈利模式未清晰，外賣業務穩健但增長放緩，且估值不便宜",
+        "【快手】炒完就走，索大不建議持有，認爲他自己都唔知點分析"
+      ],
+      "bull_points": [
+        "市場資金正從硬件rotation到軟件，軟件股強勢明顯",
+        "TSM突破前期高位，半導體代工業務穩健",
+        "騰訊估值低，業務清晰，是他少數能看懂的港股"
+      ],
+      "bear_points": [
+        "MU等硬件股回調壓力大，帳面虧損風險高",
+        "Intel的CPU市場地位持續下滑，基本面不支持",
+        "美團盈利模式未成熟，且估值並不便宜"
+      ],
+      "catalysts": {
+        "positive": [
+          "軟件股rotation效應持續，资金流入CRM、PLTR等",
+          "TSM技術先進，代工份額穩定",
+          "騰訊業績穩健，估值有修復空間",
+          "美債收益率4-5厘提供穩定現金流"
+        ],
+        "negative": [
+          "Intel CPU市場份額被AMD繼續吞噬",
+          "MU等內存股價格波動大，帳面虧損壓力持續",
+          "美團外賣增長放緩，新業務短期内無法補位"
+        ]
+      },
+      "risks": {
+        "market_risks": [
+          "美股可能進入調整，硬件股回調壓力大",
+          "港股跟住美股，短期內沒有明顯催化劑",
+          "利率回升對高估值成長股不利"
+        ],
+        "thematic_risks": [
+          "AI投資情緒可能逆轉，軟件股估值過高",
+          "半導體庫存週期可能逆轉，内存价格下跌",
+          "港股流动性差，大戶难出货"
+        ],
+        "execution_risks": [
+          "索大承認自己「炒嘢」纪律差，贏錢時加注過度",
+          "能力圈限制：无法有效评估AI和半导体新技术股",
+          "短線操作缺乏嚴格止損機制，容易持仓亏损"
+        ]
+      },
+      "logic_chains": [
+        {
+          "topic": "好的trade vs 差的trade",
+          "premise_facts": [
+            "MU一度帳面虧損超過一千萬美金（5000股）",
+            "風險承擔了10個單位，但只赚了2-5个单位",
+            "波動導致他「食咗風險」但仍然承受巨大損失"
+          ],
+          "reasoning_chain": "索大認為，一個好的交易應該是承擔合理風險取得合理回報。MU的操作正好相反——以巨大風險博取少量利潤。這不是投資，是赌博。即使帳面有盈利，如果風險/回報比率太差，本質上仍是差的trade。",
+          "speaker_conclusion": "MU是一個「差的trade」——他承認自己犯了「窮人炒股」的錯誤",
+          "confidence": "high",
+          "action": "止損/減倉，不再以同樣方式操作"
+        },
+        {
+          "topic": "能力圈認知",
+          "premise_facts": [
+            "索大43歲，投資20幾年，但並非IT或AI專家",
+            "他坐不到NVDA、MU因為不了解內存技術細節",
+            "他能坐到BRK因為了解保險和投資業務，能坐到騰訊因為PE低、業務清晰"
+          ],
+          "reasoning_chain": "每個人都有自己的能力邊界。知道自己的邊界，比判斷個股更緊要。美股短線炒作需要快速止損和嚴格紀律，他承認自己做不到，所以乾脆全部停止。將資金轉移到美債，是對自己能力圈的承認。",
+          "speaker_conclusion": "知道自己的能力圈邊界，是43歲投資者的核心認知",
+          "confidence": "high",
+          "action": "停止美股短線炒作，資金轉移到美債和了解的股票"
+        },
+        {
+          "topic": "市場Rotation",
+          "premise_facts": [
+            "MU等硬件股開始回調，股價從高位回落",
+            "CRM、PLTR、PNW等軟件股創出新高",
+            "軟件股在硬件股調整時繼續上漲"
+          ],
+          "reasoning_chain": "市場資金正在從硬件rotation到軟件。如果短期內有調整，軟件股可能相對抗跌。如果你是短線操作，追軟件股比追硬件股更合理。",
+          "speaker_conclusion": "軟件股更值得短線炒作，硬件股需要等待調整結束",
+          "confidence": "medium",
+          "action": "短線炒作軟件股，不追硬件股"
+        },
+        {
+          "topic": "Intel基本面",
+          "premise_facts": [
+            "Intel上週股價大跌",
+            "CPU市場被AMD超越",
+            "HBM內存市場幾乎全被NVDA等抢走"
+          ],
+          "reasoning_chain": "Intel的核心問題不是股價，而是業務落後。CPU市場被AMD侵蝕，HBM內存市場又被NVDA等抢走份額，公司沒有核心競爭力。即使股價低，基本面不支持買入。",
+          "speaker_conclusion": "Intel是最差的CPU公司，不支持當前估值",
+          "confidence": "medium",
+          "action": "不持有，看淡"
+        },
+        {
+          "topic": "美債作為現金流工具",
+          "premise_facts": [
+            "5年/10年美債收益率4-5厘",
+            "很多收息股（如匯豐）PE很高，風險與美債相似",
+            "索大選擇美債而不是收息股"
+          ],
+          "reasoning_chain": "如果風險相似，回報卻差不多，何必冒險持有收息股？美債有美國政府信用支撐，收息股有業務風險。當前風險回報不劃算，所以選擇美債。",
+          "speaker_conclusion": "美債4-5厘是當前最劃算的現金流工具",
+          "confidence": "medium",
+          "action": "資金轉移到美債"
+        }
+      ],
+      "cross_references": [],
+      "open_questions": {
+        "data_to_verify": [
+          "MU的合理入場價和止損位",
+          "Intel新管理層的技術路線圖",
+          "軟件股rotation能否持續"
+        ],
+        "next_trigger": [
+          "美團下季度財報",
+          "TSM管理層對AI晶片需求的前瞻",
+          "軟件股調整時的入場時機"
+        ],
+        "stress_test": [
+          "如果美股進入調整，軟件股能撐多久？",
+          "如果Intel股價繼續下跌，會不會被收購？",
+          "如果騰訊估值修復，還能長持嗎？"
+        ]
+      },
+      "notes": "這集節目是索大少有地公開自我批評。他承認自己「孭咗風險但站唔到」，並說「真心嬲呢樣嘢」。他提到「窮人炒股」問題：赢了不甘心走，输了又不甘心走，導致資金效率極低。他決定全面停止美股短線炒作，反映出他對自己操作紀律的深刻反思。",
+      "transcript_quality": "auto_generated_yue",
+      "companies": [
+        "Micron",
+        "Intel",
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "Berkshire Hathaway",
+        "Salesforce",
+        "Palantir",
+        "騰訊",
+        "平醫",
+        "美團",
+        "Google",
+        "MGM",
+        "快手"
+      ],
+      "sectors": [
+        "半導體",
+        "軟件",
+        "互聯網",
+        "國債",
+        "港股"
+      ],
+      "themes": [
+        "能力圈",
+        "風險管理",
+        "rotation",
+        "美債",
+        "內存股",
+        "短線炒作",
+        "價值投資"
+      ],
+      "tickers": [
+        "MU",
+        "INTC",
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "BRK",
+        "CRM",
+        "PLTR",
+        "PNW",
+        "0700",
+        "3750",
+        "3690",
+        "GOOG"
+      ],
+      "created_at": "2026-06-01T17:07:27.248855+00:00",
+      "updated_at": "2026-06-01T17:07:27.248855+00:00"
     }
   ],
-  "last_updated": "2026-05-20T18:44:46.795108Z",
+  "last_updated": "2026-06-01T17:07:27.248855+00:00",
   "companies": [
     "AAPL",
     "Adobe",
